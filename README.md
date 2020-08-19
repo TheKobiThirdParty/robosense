@@ -7,7 +7,7 @@ It uses: boost and pcap, thus you should install pcap with:
 
 ```bash
 sudo apt-get install -y  libpcap-dev
-git clone git@github.com:TheKobiCompany/kobi_robosense.git --recursive
+git clone git@github.com:TheKobiThirdparty/robosense.git
 ```
 
-The rs_driver backend library (in submodule) is also installed and avaiable under the original `rs_driver` name (to avoid conflicts).
+The rs_driver is available in [TheKobiThirdparty/rs_driver](http://github.com/TheKobiThirdparty/rs_driver).
