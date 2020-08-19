@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robosense</name>
+  <version>1.1.0</version>
+  <description>
+    Kobi Robosense driver 
+  </description>
+
+  <maintainer email="alexis@thekobi.com">Alexis Paques</maintainer>
+
+  <license>CLOSED</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>kobi_catkin</buildtool_depend>
+
+  <depend>ncc</depend>
+</package>
