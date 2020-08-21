@@ -8,7 +8,6 @@ find_package(pcap REQUIRED)
 
 catkin_package(
   INCLUDE_DIRS inc
-  CATKIN_DEPENDS ncc
   DEPENDS pcap
 )
 
