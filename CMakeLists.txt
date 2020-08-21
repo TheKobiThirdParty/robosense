@@ -5,6 +5,7 @@ find_package(catkin REQUIRED COMPONENTS)
 find_package(kobi_catkin REQUIRED)
 
 find_package(Boost COMPONENTS system REQUIRED)
+find_package(pcap REQUIRED)
 
 catkin_package(
   INCLUDE_DIRS inc
