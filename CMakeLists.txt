@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.9)
 project(robosense)
 
 find_package(catkin REQUIRED COMPONENTS)
-find_package(kobi_catkin REQUIRED)
 
 find_package(Boost COMPONENTS system REQUIRED)
 find_package(pcap REQUIRED)
