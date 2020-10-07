@@ -4,18 +4,18 @@ project(robosense)
 find_package(catkin REQUIRED COMPONENTS)
 
 find_package(Boost COMPONENTS system REQUIRED)
-find_package(pcap REQUIRED)
+
+set(robosense_extra_LIBRARIES pthread pcap)
 
 catkin_package(
   INCLUDE_DIRS inc
-  DEPENDS pcap
+  DEPENDS robosense_extra
 )
 
 include_directories(
   inc
   rs_driver/src
   ${catkin_INCLUDE_DIRS}
-  ${pcap_INCLUDE_DIRS}
 )
 
 add_executable(demo src/demo.cpp)

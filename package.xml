@@ -11,5 +11,6 @@
   <license>CLOSED</license>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <depend>pcap-dev</depend>
 
 </package>
